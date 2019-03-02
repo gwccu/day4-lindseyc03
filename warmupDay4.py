@@ -4,8 +4,8 @@ from random import randint
 player = input('rock (r), paper (p) or scissors (s)?')
 print(player, "vs", end=' ')
 
-chosen = randint(1,3)
-#print(chosen)
+chosen = randint(1, 3)
+# print(chosen)
 
 if chosen == 1:
     computer = 'r'
@@ -32,4 +32,3 @@ elif player == 's' and computer == 'r':
     print("Computer wins!")
 elif player == 's' and computer == 'p':
     print("Player Wins!")
-    
